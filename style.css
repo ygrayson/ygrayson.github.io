@@ -78,7 +78,7 @@ a {
     vertical-align: bottom;
   }
   a:after {
-    background: linear-gradient(to bottom, rgb(245, 233, 149), rgb(245, 233, 149)) center 1.08em/100% 2px no-repeat;
+    background: linear-gradient(to bottom, rgb(245, 232, 137), rgb(245, 233, 149)) center 1.08em/100% 2px no-repeat;
     content: "";
     height: 100%;
     left: 0;

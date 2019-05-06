@@ -47,26 +47,25 @@
                             </li>
                             <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li> 
                             <li class="nav-item submenu dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Channel</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UCZo2vby21NMZaMpFVXvGZoA?view_as=subscriber">Youtube</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="https://www.patreon.com">Patreon</a></li>
-                                    </ul>
-                                </li>
-                            
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Channel</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UCZo2vby21NMZaMpFVXvGZoA?view_as=subscriber">Youtube</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="https://www.patreon.com">Patreon</a></li>
+                                </ul>
+                            </li>
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
                         </ul>
                         <div class="right-button">
-                        <ul>
-                            <li><a id="search" href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
-                        </ul>
+                            <ul>
+                                <li><a id="search" href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                            </ul>
                         </div> 
                     </div>
                 </div>
             </nav>
         </div>
-
+        
         <!--Search Area-->
         <div class="search_input" id="search_input_box">
             <div class="container ">
@@ -81,120 +80,127 @@
     <!--====================================Header Menu Area (end) =====================================-->
 
 
-    <!--========================================= Big Title Area (start) =================================-->
+
+
+    <!--================================Big Title Area (start)================================-->
     <section class="hero-banner">
         <div class="container">
-            <h2>Contact Me</h2>
+            <h2>About Me</h2>
             <nav aria-label="breadcrumb" class="banner-breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contact Me</li>
+                    <li class="breadcrumb-item active" aria-current="page">About Me</li>
                 </ol>
             </nav>
         </div>
     </section>
-    <!--========================================= Big Title Area (end) ==================================-->
+    <!--================================Big Title Area (end) ====================================-->
 
 
-    <!-- ======================================== Contact Section (start) ================================= -->
-    <section class="contact-section area-padding">
+    <!--====================================About Area (start)=====================================-->
+    <section class="about-area area-padding">
         <div class="container">
-            <div class="d-none d-sm-block mb-5 pb-4">
-                <div id="map" style="height: 480px;"></div>
-                <script>
-                    function initMap() {
-                        var uluru = {lat: -25.363, lng: 131.044};
-                        var grayStyles = [
-                        {
-                            featureType: "all",
-                            stylers: [
-                            { saturation: -90 },
-                            { lightness: 50 }
-                            ]
-                        },
-                        {elementType: 'labels.text.fill', stylers: [{color: '#ccdee9'}]}
-                        ];
-                        var map = new google.maps.Map(document.getElementById('map'), {
-                            center: {lat: -31.197, lng: 150.744},
-                            zoom: 9,
-                            styles: grayStyles,
-                            scrollwheel:  false
-                        });
-                    }
-
-                </script>
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&callback=initMap"></script>
-
-            </div>
-
-
             <div class="row">
-                <div class="col-12">
-                    <h2 class="contact-title">Get in Touch</h2>
-                </div>
-                <div class="col-lg-8">
-                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" >
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" placeholder="Enter Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name">
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input class="form-control" name="email" id="email" type="email" placeholder="Enter email address">
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <input class="form-control" name="subject" id="subject" type="text" placeholder="Enter Subject">
-                                </div>
-                            </div>
+                <div class="col-lg-6">
+                    <div class="img-styleBox">
+                        <div class="styleBox-border">
+                            <img class="styleBox-img1" src="img/background/about1.jpg" alt="">
                         </div>
-                        <div class="form-group mt-3">
-                            <button type="submit" class="button button-contactForm">Send Message</button>
-                        </div>
-                    </form>
-
-
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-home"></i></span>
-                        <div class="media-body">
-                            <h3>Buttonwood, California.</h3>
-                            <p>Rosemead, CA 91770</p>
-                        </div>
+                        <img class="styleBox-img2" src="img/background/about2.jpg" alt="">
                     </div>
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-                        <div class="media-body">
-                            <h3><a href="tel:454545654">00 (440) 9865 562</a></h3>
-                            <p>Mon to Fri 9am to 6pm</p>
-                        </div>
-                    </div>
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-email"></i></span>
-                        <div class="media-body">
-                            <h3><a href="mailto:support@colorlib.com">support@colorlib.com</a></h3>
-                            <p>Send us your query anytime!</p>
-                        </div>
+                </div>
+                <div class="col-lg-5 col-md-12 offset-md-0 offset-lg-1">
+                    <div class="about-content">
+                        <h4>
+                            A Passionate Student<br>
+                            Pursuing the Nature of<br>
+                            Human Mind
+                        </h4>
+                        <p>
+                            The nature of human mind is a question that has perplexed generations and generations of researchers and scientists.
+                            As a Cognitive Science student at the University of Michigan, I have joined the world-wide endeaver of understanding the Human Mind.
+                        </p>
+                        <p>
+                            <!--TODO: change <b> to <important>-->
+                            My research projects are all centered around one central idea: <b>Using the building blocks of human brain, through computational methods,
+                            We try to construct an intelligent agent that exhibit human behavior.</b>
+                        </p>
+
+                        <a class="main_btn" href="projects.html">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ========================================= Contact Section (end) ================================= -->
+    <!--========================================About Area (end) ======================================-->
+
+
+    <!--======================================= My Education (start) ===================================-->
+    <section class="bg-gray area-padding bg-1">
+        <div class="container">
+            <!--============ Title ===========-->
+            <div class="area-heading">
+                <h3>My<span> Education</span></h3>
+                <p>All the people that have inspired me</p>
+            </div>
+
+            <!--======= University of Michigan ============-->
+            <div class="section-top-border">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="img/elements/d.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-9 mt-sm-20 left-align-p">
+                        <h3>University of Michigan, Ann Arbor</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!--============= University of Macau ==============-->
+            <div class="section-top-border text-right">
+                <div class="row">
+                    <div class="col-md-9">
+                        <h3>University of Macau</h3>                        
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/elements/d.jpg" alt="" class="img-fluid">                        
+                    </div>
+                </div>
+            </div>
+
+            <!--======= High School ============-->
+            <div class="section-top-border">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="img/elements/d.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-9 mt-sm-20 left-align-p">
+                        <h3>High School Affiliated to Beijing Institute of Technology</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--======================================= My Education (end) ===================================-->
 
 
 
-    <!--================ Footer Area (start) =================-->
+    <!--======================================= My Interest (start) ===================================-->
+    <section class="bg-gray area-padding bg-1">
+            <div class="container">
+                <!--============= Title ============-->
+                <div class="area-heading">
+                    <h3>My<span> Interest</span></h3>
+                    <p>All the amazing things we can work on</p>
+                </div>
+
+
+            </div>
+    <!--======================================= My Interest (end) ===================================-->
+
+
+
+    <!--====================================== Footer Area(start)  ======================================-->
     <footer class="footer-area section_gap">
         <div class="container">
             <div class="row">
@@ -251,41 +257,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         </div>
     </div>
 </footer>
-<!--================ End footer Area  =================-->
-
-
-<!--================Contact Success and Error message Area =================-->
-    <div id="success" class="modal modal-message fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="fas fa-times"></i>
-                    </button>
-                    <h2>Thank you</h2>
-                    <p>Your message is successfully sent...</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modals error -->
-
-    <div id="error" class="modal modal-message fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="fas fa-times"></i>
-                    </button>
-                    <h2>Sorry !</h2>
-                    <p> Something went wrong </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--================End Contact Success and Error message Area =================-->
-
+<!--=============================================== Footer Area (end)  ====================================-->
 
 
 

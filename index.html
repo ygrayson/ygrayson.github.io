@@ -1,194 +1,50 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="author" content="Qianbo Yin">
-    <meta name="keywords" content="Cognitive Science, Qianbo Yin, Reinforcement Learning, Personal Webpage">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Web page logo -->
-    <link rel="icon" href="img/small_brain.jpg" type="image/jpg">
+<!DOCTYPE html>
+<html lang="en">  
+  <!-- The <head> section contains the meta-information about your website, including title and links to stylesheets. -->
+  <head>
     <title>Qianbo Yin</title>
-    <!-- Bootstrap CSS: define style of the webpages -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/animate-css/animate.css">
-    <!-- main css -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-
-<body>
-    <!--================================= Header Menu Area (start) =====================================-->
-    <header class="header_area">
-        <div class="main_menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <!--The Upper left corner icon omitted--> <!--<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a> --> 
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!--MENU BAR ITEMS-->
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-                            <li class="nav-item"><a class="nav-link" href="about-me.html">About Me</a></li>
-                            <li class="nav-item submenu dropdown">
-                                <!--BUG: CLICKING ON PROJECTS doesn't take me to projects.html-->
-                                <a href="projects.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="multi-arm.html" style="font-size: 80%">Multi-armed Bandit</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="reinforcement-learning.html" style="font-size: 80%">Reinforcement Learning</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="intel-agent.html" style="font-size: 80%">Intelligent Agent</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li> 
-                            <li class="nav-item submenu dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Channel</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UCZo2vby21NMZaMpFVXvGZoA?view_as=subscriber" target="_blank">Youtube</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="https://www.patreon.com/qianboyin" target="_blank">Patreon</a></li>
-                                    </ul>
-                                </li>
-                            
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
-                        </ul>
-                        <div class="right-button">
-                            <ul>
-                                <li><a id="search" href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
-                            </ul>
-                        </div> 
-                    </div>
-                </div>
-            </nav>
-        </div>
-
-        <!--Search Area-->
-        <div class="search_input" id="search_input_box">
-            <div class="container ">
-                <form class="d-flex justify-content-between search-inner">
-                    <input type="text" class="form-control" id="search_input" placeholder="Search Here">
-                    <button type="submit" class="btn"></button>
-                    <span class="ti-close" id="close_search" title="Close Search"></span>
-                </form>
-            </div>
-        </div>
-    </header>
-    <!--==================================== Header Menu Area (end) =====================================-->
-
-
-    <!--==================================== Home Banner Area (start) ================================-->
-    <!-- TODO: Find and edit a good home banner photo -->
-    <section class="home_banner_area">
-        <!--BIG TITLE AREA-->
-        <div class="banner_inner d-flex align-items-center">
-            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
-            <div class="container">
-                <div class="banner_content">
-                    <h1>Qianbo Yin</h1>
-                    <p>University of Michigan, Ann Arbor</p>
-                    <a class="main_btn" href="#">About Me</a>
-                </div>
-            </div>
-        </div>
-        <!--SOCIAL MEDIA AREA-->
-        <div class="social_area">
-            <h4>
-                <a class="LinkedIn" href="https://linkedin.com/in/qianbo-yin-a91861114/" target="_blank"><i class="ti-linkedin"></i>LinkedIn</a>
-            </h4>
-            <div class="round"></div>
-            <h4>
-                <a href="https://www.github.com/ygrayson" target="_blank"><i class="ti-github"></i>GitHub</a>
-            </h4>
-            <div class="round"></div>
-            <h4>
-                <a href="https://www.facebook.com/Qianbo.Yin" target="_blank"><i class="ti-facebook"></i>Facebook</a>
-            </h4>
-        </div>
-    </section>
-    <!--==================================== Home Banner Area (end) ===============================-->
-
-    <!--==================================== About Me (start) =====================================-->
-    <div class="row">
-        <div class="col-lg-6">
-            <h3>First Thing</h3>
-        </div>
-        <div>
-            <h3>Second Thing</h3>
-        </div>
+    
+    <!-- Bootstrap CSS CDN – provides free CSS! (The container, header, and footer sections are all provided by Bootstrap.) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- This links to our CSS file, which adds styling to the website. -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    
+    <!-- Font Awesome CDN – for icons for email and social media links. -->
+    <script src="https://use.fontawesome.com/44cb379512.js"></script>
+  </head>
+  
+  <!-- The body contains the content of the website. -->
+  <body>
+    <!-- A div contains a "section" of the website. -->
+    <div class="container-fluid">
+      <div class="header">
+        <!-- h1 and h2 are header tags (meaning larger text, with h1 > h2). -->
+        <h1>Qianbo Yin</h1>
+      </div>
     </div>
-            
-            
     
-    <!--======================================== Footer Area (start) ====================================-->
-    <footer class="footer-area section_gap">
-        <div class="container">
-            <div class="row">
-                <!--====== About Me =======-->
-                <div class="col-lg-4  col-md-6 col-sm-6">
-                    <div class="single-footer-widget">
-                        <h6>About Me</h6>
-                        <p>
-                            My name is Qianbo Yin and I developed this website to showcase my work and better communicate to those
-                            who are interested in my research and projects. Feel free to reach out to me for anything you'd like to discuss.
-                        </p>
-                        <p class="footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div>
-                </div>
-                <!--======== Newsletter ========-->
-                <div class="offset-lg-1 col-lg-5   col-md-6 col-sm-6">
-                    <!--DONE: remove the Newsletter part-->
-                    <div class="single-footer-widget">
-                    </div>
-                </div>
-                <!--======== Contact Me ========-->
-                <div class="col-lg-2 col-md-6 col-sm-6">
-                    <div class="single-footer-widget">
-                        <a href="contact.html"><h6>Contact Me</h6></a>
-                        <p>Let's be social!</p>
-                        <div class="footer-social d-flex align-items-center">
-                            <a href="https://www.facebook.com/Qianbo.Yin/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.github.com/ygrayson/" target="_blank"><i class="fab fa-github"></i></a>
-                            <a href="https://www.linkedin.com/in/qianbo-yin-a91861114/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="icons">
+          
+          <!-- Two icons linking to my personal github and LinkedIn page. -->
+          <a href="https://github.com/ygrayson/">
+            <i class="fa fa-github" title="Github"></i>
+          </a>
+          
+          <a href="https://www.linkedin.com/in/qianbo-yin-a91861114/">
+            <i class="fa fa-linkedin" title="LinkedIn"></i>
+          </a>
+    
         </div>
+      </div>
     </footer>
-    <!--======================================= Footer Area (end) ====================================-->
-    
-    
-    
-    
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/stellar.js"></script>
-    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-    <script src="vendors/isotope/isotope.pkgd.min.js"></script>
-    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="js/theme.js"></script>
-</body>
+
+    <!--You can ignore this stuff down here.-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
 </html>
